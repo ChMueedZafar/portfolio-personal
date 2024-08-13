@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Abdul Mueed Zafar Developer - Portfolio</title>
+
 </head>
 <style>
     *{
@@ -16,6 +20,34 @@ body{
 
 }
 
+/* navbar */
+nav {
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 80px;
+background-color: rgb(18, 18, 62);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+.left{
+    font-size: 1.5rem;
+}
+
+/* main section */
+
+.firstsection{
+    display: flex;
+    justify-content:space-around ;
+    margin: 23px 0;
+}
 
 
 </style>
@@ -23,11 +55,32 @@ body{
     <!-- navbar section -->
     <header>
         <nav>
-            <div class="left"></div>
-            <div class="right"></div>
-
+            <div class="left"> Mueed's Zafar Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
         </nav>
     </header>
+
+    <!-- main body section -->
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                left section
+            </div>
+            <div class="rightsection">
+                right section
+            </div>
+
+        </section>
+    </main>
 
 
 
